@@ -14,12 +14,8 @@ DATA A[SIZE];
 DATA B[SIZE_1];
 DATA C[SIZE_2];
 
-
-
-
 double seconds()
 {
-
   struct timespec now;
   clock_gettime(CLOCK_MONOTONIC, &now);
   return now.tv_sec + now.tv_nsec / 1000000000.0;
