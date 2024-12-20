@@ -1,0 +1,5 @@
+Loop unrolling consistently improves performance across all tested degrees and input sizes.
+The degree-64 unrolling offers the most significant speedup, and the benefits of this
+optimization technique become more pronounced with larger input sizes, making loop
+unrolling a valuable strategy for reducing computational overhead, especially in scenarios
+with extensive data processing.
